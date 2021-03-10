@@ -792,6 +792,38 @@ padding: 0px 10px;
 
 
 /*Gallery*/
+.pictures .row-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+
+.row-1 img{
+    display: flex;
+    flex: 0 0 25%;
+    width: 100%;
+}
+.row-1 img:nth-child(1){
+    flex: 0 0 49%;
+}
+.pictures .row-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+.row-2 img{
+    display: flex;
+    width: 100%;
+    flex: 0 0 24%;
+}
+.row-2 img:nth-child(3){
+    flex: 0 0 50%;
+}
 
 
 /*Slajder - team*/
@@ -803,7 +835,8 @@ padding: 0px 10px;
 
 
 .owl-carousel .item img{
-    width: 400px;
+    width: 90%;
+    margin: 0 auto;
     height: auto;
 }
 .team{
