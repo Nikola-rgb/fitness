@@ -58,7 +58,7 @@ body{
 
 /* Header */
 header{
-    background: linear-gradient(rgba(0, 0, 0,.5),rgba(0, 0, 0, .5)), url(img/pravi-header.jpg);
+    background: linear-gradient(rgba(0, 0, 0,.2),rgba(0, 0, 0, .99)), url(img/pravi-header.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -255,7 +255,7 @@ padding: 80px 0;
 /*Registration*/
 
 .registration{
-    background-image: linear-gradient(rgba(0, 0, 0,.5),rgba(0, 0, 0, .5)), url(img/registration.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0,.3),rgba(0, 0, 0, .99)), url(img/registration.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
